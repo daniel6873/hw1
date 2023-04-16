@@ -119,7 +119,7 @@ CREATE TABLE movies (
     Studio TEXT,
 );
 
-CREAT TABLE actors (
+CREATE TABLE actors (
     actor_id INTEGER PRIMARY KEY AUTOINCREMENT,
     actor_name TEXT,
     character_name TEXT, 
