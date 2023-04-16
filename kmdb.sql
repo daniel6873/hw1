@@ -106,6 +106,9 @@
 -- Drop existing tables, so you'll start fresh each time this script is run.
 -- TODO!
 
+DROP TABLE movies;
+DROP TABLE actors;
+
 -- Create new tables, according to your domain model
 -- TODO!
 
@@ -113,7 +116,7 @@ CREATE TABLE movies (
     movie_id INTEGER PRIMARY KEY AUTOINCREMENT,
     movie_name TEXT,
     year_released INTEGER,
-    MPAA_rating INTEGER,
+    MPAA_rating TEXT,
     Studio TEXT
 );
 
@@ -127,6 +130,19 @@ CREATE TABLE actors (
 -- Insert data into your database that reflects the sample data shown above
 -- Use hard-coded foreign key IDs when necessary
 -- TODO!
+
+INSERT INTO movies (
+    movie_name, 
+    year_released,
+    MPAA_rating,
+    Studio
+)
+VALUES (
+    "Batman Begins",          
+    "2005",           
+    "PG-13",  
+    "Warner Bros."
+);
 
 -- Prints a header for the movies output
 .print "Movies"
