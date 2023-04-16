@@ -105,8 +105,8 @@
 
 -- Drop existing tables, so you'll start fresh each time this script is run.
 -- TODO!
-DROP TABLE movies
-DROP TABLE actors
+DROP TABLE movies;
+DROP TABLE actors;
 
 -- Create new tables, according to your domain model
 -- TODO!
