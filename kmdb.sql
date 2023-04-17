@@ -145,7 +145,12 @@ VALUES ( "The Dark Knight Rises", "2012", "PG-13", "Warner Bros." );
 INSERT INTO actors (movie_title, actor_name, character_name)
 VALUES ("Batman Begins","Christian Bale", "Bruce Wayne");
 
+INSERT INTO actors (movie_title, actor_name, character_name)
+VALUES ("Batman Begins","Michael Cane", "Alfred");
+
+
 -- Prints a header for the movies output
+.print ""
 .print "Movies"
 .print "======"
 .print ""
@@ -171,4 +176,5 @@ SELECT * from actors;
 .print "Christian Bale movies list:"
 SELECT movie_title FROM actors
 WHERE actor_name= "Christian Bale";
+.print ""
 
