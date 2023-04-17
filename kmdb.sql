@@ -131,23 +131,25 @@ CREATE TABLE actors (
 -- Use hard-coded foreign key IDs when necessary
 -- TODO!
 
-INSERT INTO movies (
-    movie_name, 
-    year_released,
-    MPAA_rating,
-    Studio
-)
-VALUES (
-    "Batman Begins",          
-    "2005",           
-    "PG-13",  
-    "Warner Bros."
-);
+INSERT INTO movies (movie_name,year_released, MPAA_rating,Studio)
+VALUES ("Batman Begins","2005","PG-13","Warner Bros.");
+
+INSERT INTO movies (movie_name, year_released, MPAA_rating, Studio)
+VALUES ( "The Dark Knight", "2008", "PG-13", "Warner Bros." );
+
+INSERT INTO movies (movie_name, year_released, MPAA_rating, Studio)
+VALUES ( "The Dark Knight Rises", "2012", "PG-13", "Warner Bros." );
+
+--Insert data into actors table
+
+INSERT INTO actors (movie_title, actor_name, character_name)
+VALUES ("Batman Begins","Christian Bale", "Bruce Wayne");
 
 -- Prints a header for the movies output
 .print "Movies"
 .print "======"
 .print ""
+SELECT * from movies;
 
 -- The SQL statement for the movies output
 -- TODO!
@@ -157,7 +159,16 @@ VALUES (
 .print "Top Cast"
 .print "========"
 .print ""
+SELECT * from actors;
+
 
 
 -- The SQL statement for the cast output
 -- TODO!
+
+--Using Christian Bale as an example
+.print ""
+.print "Christian Bale movies list:"
+SELECT movie_title FROM actors
+WHERE actor_name= "Christian Bale";
+
