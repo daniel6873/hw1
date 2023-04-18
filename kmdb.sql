@@ -155,37 +155,37 @@ INSERT INTO actors (movie_title, actor_name, character_name)
 VALUES ("Batman Begins","Katie Holmes","Rachel Dawes");
 
 INSERT INTO actors (movie_title, actor_name, character_name)
-VALUES ("Batman Begins",          "Gary Oldman",           "Commissioner Gordon");
+VALUES ("Batman Begins", "Gary Oldman", "Commissioner Gordon");
 
 INSERT INTO actors (movie_title, actor_name, character_name)
-VALUES ("The Dark Knight",      "Christian Bale",        "Bruce Wayne");
+VALUES ("The Dark Knight", "Christian Bale", "Bruce Wayne");
 
 INSERT INTO actors (movie_title, actor_name, character_name)
-VALUES ("The Dark Knight",        "Heath Ledger",          "Joker");
+VALUES ("The Dark Knight", "Heath Ledger", "Joker");
 
 INSERT INTO actors (movie_title, actor_name, character_name)
-VALUES ("The Dark Knight",        "Aaron Eckhart",         "Harvey Dent");
+VALUES ("The Dark Knight", "Aaron Eckhart", "Harvey Dent");
 
 INSERT INTO actors (movie_title, actor_name, character_name)
-VALUES ("The Dark Knight",        "Michael Caine",         "Alfred");
+VALUES ("The Dark Knight", "Michael Caine", "Alfred");
 
 INSERT INTO actors (movie_title, actor_name, character_name)
-VALUES ("The Dark Knight",        "Maggie Gyllenhaal",     "Rachel Dawes");
+VALUES ("The Dark Knight", "Maggie Gyllenhaal", "Rachel Dawes");
 
 INSERT INTO actors (movie_title, actor_name, character_name)
-VALUES ("The Dark Knight Rises",  "Christian Bale",        "Bruce Wayne");
+VALUES ("The Dark Knight Rises", "Christian Bale", "Bruce Wayne");
 
 INSERT INTO actors (movie_title, actor_name, character_name)
-VALUES ("The Dark Knight Rises",  "Gary Oldman",           "Commissioner Gordon");
+VALUES ("The Dark Knight Rises", "Gary Oldman", "Commissioner Gordon");
 
 INSERT INTO actors (movie_title, actor_name, character_name)
-VALUES ("The Dark Knight Rises",  "Tom Hardy",             "Bane");
+VALUES ("The Dark Knight Rises", "Tom Hardy", "Bane");
 
 INSERT INTO actors (movie_title, actor_name, character_name)
-VALUES ("The Dark Knight Rises",  "Joseph Gordon-Levitt",  "John Blake");
+VALUES ("The Dark Knight Rises", "Joseph Gordon-Levitt", "John Blake");
 
 INSERT INTO actors (movie_title, actor_name, character_name)
-VALUES ("The Dark Knight Rises",  "Anne Hathaway",         "Selina Kyle");
+VALUES ("The Dark Knight Rises", "Anne Hathaway", "Selina Kyle");
 
 
 -- Prints a header for the movies output
