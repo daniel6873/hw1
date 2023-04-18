@@ -148,6 +148,45 @@ VALUES ("Batman Begins","Christian Bale", "Bruce Wayne");
 INSERT INTO actors (movie_title, actor_name, character_name)
 VALUES ("Batman Begins","Michael Cane", "Alfred");
 
+INSERT INTO actors (movie_title, actor_name, character_name)
+VALUES ("Batman Begins","Liam Neeson","Ra's Al Ghul");
+
+INSERT INTO actors (movie_title, actor_name, character_name)
+VALUES ("Batman Begins","Katie Holmes","Rachel Dawes");
+
+INSERT INTO actors (movie_title, actor_name, character_name)
+VALUES ("Batman Begins",          "Gary Oldman",           "Commissioner Gordon");
+
+INSERT INTO actors (movie_title, actor_name, character_name)
+VALUES ("The Dark Knight",      "Christian Bale",        "Bruce Wayne");
+
+INSERT INTO actors (movie_title, actor_name, character_name)
+VALUES ("The Dark Knight",        "Heath Ledger",          "Joker");
+
+INSERT INTO actors (movie_title, actor_name, character_name)
+VALUES ("The Dark Knight",        "Aaron Eckhart",         "Harvey Dent");
+
+INSERT INTO actors (movie_title, actor_name, character_name)
+VALUES ("The Dark Knight",        "Michael Caine",         "Alfred");
+
+INSERT INTO actors (movie_title, actor_name, character_name)
+VALUES ("The Dark Knight",        "Maggie Gyllenhaal",     "Rachel Dawes");
+
+INSERT INTO actors (movie_title, actor_name, character_name)
+VALUES ("The Dark Knight Rises",  "Christian Bale",        "Bruce Wayne");
+
+INSERT INTO actors (movie_title, actor_name, character_name)
+VALUES ("The Dark Knight Rises",  "Gary Oldman",           "Commissioner Gordon");
+
+INSERT INTO actors (movie_title, actor_name, character_name)
+VALUES ("The Dark Knight Rises",  "Tom Hardy",             "Bane");
+
+INSERT INTO actors (movie_title, actor_name, character_name)
+VALUES ("The Dark Knight Rises",  "Joseph Gordon-Levitt",  "John Blake");
+
+INSERT INTO actors (movie_title, actor_name, character_name)
+VALUES ("The Dark Knight Rises",  "Anne Hathaway",         "Selina Kyle");
+
 
 -- Prints a header for the movies output
 .print ""
@@ -176,5 +215,12 @@ SELECT * from actors;
 .print "Christian Bale movies list:"
 SELECT movie_title FROM actors
 WHERE actor_name= "Christian Bale";
+.print ""
+
+--Character list from "The Dark Knight Rises"
+.print ""
+.print "Characters from The Dark Knight Rises:"
+SELECT character_name, actor_name FROM actors
+WHERE movie_title = "The Dark Knight Rises";
 .print ""
 
